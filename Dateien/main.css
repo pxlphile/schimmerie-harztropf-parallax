@@ -156,13 +156,13 @@ main {
 #slide-3 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
 
 /* Slide 4 */
-#slide-4 .bcg #slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+#slide-4 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
 
 /* Slide 5 */
 #slide-5 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
 
 /* Slide 4 */
-#slide-6 .bcg #slide-6 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+#slide-6 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
 
 /* Slide 5 */
 #slide-7 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
