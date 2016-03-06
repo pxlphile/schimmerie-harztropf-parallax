@@ -24,17 +24,12 @@ Enjoy responsibly!
    Base styles: opinionated defaults
    ========================================================================== */
 
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
+html, button, input, select, textarea {
+	color: #222;
 }
-
 body {
-    font-size: 1em;
-    line-height: 1.4;
+	font-size: 1em;
+	line-height: 1.4;
 }
 
 /*
@@ -44,65 +39,58 @@ body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+ background: #b3d4fc;
+ text-shadow: none;
 }
-
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+	background: #b3d4fc;
+	text-shadow: none;
 }
-
 /*
  * A better looking default horizontal rule
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
 }
-
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
 
 img {
-    vertical-align: middle;
+	vertical-align: middle;
 }
-
 /*
  * Remove default fieldset styles.
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
 
 textarea {
-    resize: vertical;
+	resize: vertical;
 }
-
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
 
 .chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+	margin: 0.2em 0;
+	background: #ccc;
+	color: #000;
+	padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Parallax Scroll
    ========================================================================== */
@@ -112,7 +100,6 @@ body, html {
 	background-color: #000000;
 }
 body {
-	
 }
 .no-js {
 	padding-top: 106px;
@@ -127,8 +114,7 @@ section {
 	min-width: 960px;
 	opacity: 0;
 }
-.loaded section,
-.no-js section {
+.loaded section, .no-js section {
 	opacity: 1;
 	-webkit-transition: opacity 300ms ease-out;
 	-moz-transition: opacity 300ms ease-out;
@@ -137,7 +123,6 @@ section {
 main {
 	overflow-x: hidden;
 }
-
 .bcg {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -146,27 +131,123 @@ main {
 	height: 100%;
 	width: 100%;
 }
-/* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
 
-/* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
+section.homeSlide {
+	height: 574px;
+}
 
-/* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
+section.homeSlide>div {
+	background-position: 50% -3.52941px;
+}
 
-/* Slide 4 */
-#slide-4 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
-
-/* Slide 5 */
-#slide-5 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
-
-/* Slide 4 */
-#slide-6 .bcg {background: none; background-color: #010101; height: 310px; text-align: center}
-
-/* Slide 5 */
-#slide-7 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
-
+#slide-1 .bcg {
+	background-image:url('../img/01_parallax.jpg')
+}
+#slide-2 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-3 .bcg {
+	background-image:url('../img/02_parallax.jpg')
+}
+#slide-4 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-5 .bcg {
+	background-image:url('../img/03_parallax.jpg')
+}
+#slide-6 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-7 .bcg {
+	background-image:url('../img/04_parallax.jpg')
+}
+#slide-8 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-9 .bcg {
+	background-image:url('../img/05_parallax.jpg')
+}
+#slide-10 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-11 .bcg {
+	background-image:url('../img/06_parallax.jpg')
+}
+#slide-12 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-13 .bcg {
+	background-image:url('../img/07_parallax.jpg')
+}
+#slide-14 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-15 .bcg {
+	background-image:url('../img/08_parallax.jpg')
+}
+#slide-16 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-17 .bcg {
+	background-image:url('../img/09_parallax.jpg')
+}
+#slide-18 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-19 .bcg {
+	background-image:url('../img/10_parallax.jpg')
+}
+#slide-20 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-21 .bcg {
+	background-image:url('../img/11_parallax.jpg')
+}
+#slide-22 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
+#slide-23 .bcg {
+	background-image:url('../img/12_parallax.jpg')
+}
+#slide-24 .bcg {
+	background: none;
+	background-color: #010101;
+	height: 310px;
+	text-align: center
+}
 .hsContainer {
 	display: table;
 	table-layout: fixed;
@@ -175,7 +256,6 @@ main {
 	overflow: hidden;
 	position: relative;
 }
-
 .hsContent {
 	max-width: 450px;
 	margin: -150px auto 0 auto;
@@ -185,33 +265,25 @@ main {
 	padding: 0 8%;
 	text-align: center
 }
-	.hsContent h2,
-	.copy h2 {
-		color: #ffffff;
-		font-size: 45px;
-		line-height: 48px;
-		margin-bottom: 12px;
-	}
-	.hsContent p {
-		width: 400px;
-		margin: 0 auto;
-		color: #b2b2b2;
-	}
-	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
-	}
-	.bgBlack {
-		background-color: rgba(0,0,0,0.75);
-		padding: 3px 10px;
-	}
-
-
-
-
-
-
-
+.hsContent h2,  .copy h2 {
+	color: #ffffff;
+	font-size: 45px;
+	line-height: 48px;
+	margin-bottom: 12px;
+}
+.hsContent p {
+	width: 400px;
+	margin: 0 auto;
+	color: #b2b2b2;
+}
+.hsContent a {
+	color: #b2b2b2;
+	text-decoration: underline;
+}
+.bgBlack {
+	background-color: rgba(0,0,0,0.75);
+	padding: 3px 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -221,67 +293,60 @@ main {
  */
 
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
+	background-color: transparent;
+	border: 0;
+	overflow: hidden;
     /* IE 6/7 fallback */
     *text-indent: -9999px;
 }
-
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+	content: "";
+	display: block;
+	width: 0;
+	height: 150%;
 }
-
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
 
 .hidden {
-    display: none !important;
-    visibility: hidden;
+	display: none !important;
+	visibility: hidden;
 }
-
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
-
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
-
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
 
 .invisible {
-    visibility: hidden;
+	visibility: hidden;
 }
-
 /*
  * Clearfix: contain floats
  *
@@ -294,23 +359,65 @@ main {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
 }
-
 .clearfix:after {
-    clear: both;
+	clear: both;
 }
-
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
 
 .clearfix {
-    *zoom: 1;
+ *zoom: 1;
+}
+.back-link a {
+	color: #4ca340;
+	text-decoration: none;
+	border-bottom: 1px #4ca340 solid;
+}
+.back-link a:hover,  .back-link a:focus {
+	color: #408536;
+	text-decoration: none;
+	border-bottom: 1px #408536 solid;
+}
+h1 {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+      margin: 0;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #1c1d1e;
+	font-size: 32px;
+	margin-bottom: 3px;
+}
+h2 {
+	color: #1c1d1e;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+}
+.entry-header .inner {
+	text-align: left;
+	margin: 0 auto 20px auto;
+	width: 800px;
+}
+.entry-header {
+	padding-top: 20px;
+	background-color: #fff;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999999
+}
+.socialLinks {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 1000000;
 }
 
 /* ==========================================================================
@@ -320,14 +427,10 @@ main {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* Style adjustments for viewports that meet the condition */
 }
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+ @media print,  (-o-min-device-pixel-ratio: 5/4),  (-webkit-min-device-pixel-ratio: 1.25),  (min-resolution: 120dpi) {
+/* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -336,68 +439,49 @@ main {
    ========================================================================== */
 
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
+* {
+	background: transparent !important;
+	color: #000 !important; /* Black prints faster: h5bp.com/s */
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+a,  a:visited {
+	text-decoration: underline;
+}
+a[href]:after {
+	content: " (" attr(href) ")";
+}
+abbr[title]:after {
+	content: " (" attr(title) ")";
+}
+/*
      * Don't show links for images, or javascript/internal links
      */
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+    .ir a:after,  a[href^="javascript:"]:after,  a[href^="#"]:after {
+	content: "";
+}
+pre,  blockquote {
+	border: 1px solid #999;
+	page-break-inside: avoid;
+}
+thead {
+	display: table-header-group; /* h5bp.com/t */
+}
+tr,  img {
+	page-break-inside: avoid;
+}
+img {
+	max-width: 100% !important;
+}
+ @page {
+ margin: 0.5cm;
+}
+p,  h2,  h3 {
+	orphans: 3;
+	widows: 3;
+}
+h2,  h3 {
+	page-break-after: avoid;
+}
 }
