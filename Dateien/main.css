@@ -28,8 +28,9 @@ html, button, input, select, textarea {
 	color: #222;
 }
 body {
-	font-size: 1em;
+	font-size: 1.4em;
 	line-height: 1.4;
+	color: #f5e79c;
 }
 
 /*
@@ -130,8 +131,8 @@ main {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 section.homeSlide {
@@ -250,7 +251,7 @@ section.homeSlide>div {
 	position: relative;
 }
 .hsContent {
-	max-width: 950px;
+	max-width: 1100px;
 	margin: -150px auto 0 auto;
 	display: table-cell;
 	vertical-align: middle;
@@ -260,14 +261,14 @@ section.homeSlide>div {
 }
 .hsContent h2,  .copy h2 {
 	color: #ffffff;
-	font-size: 45px;
-	line-height: 48px;
+	font-size: 50px;
+	line-height: 65px;
 	margin-bottom: 12px;
 }
 .hsContent p {
-	width: 900px;
+	width: 1050px;
 	margin: 0 auto;
-	color: #b2b2b2;
+	color: white;
 }
 .hsContent a {
 	color: #b2b2b2;
@@ -381,15 +382,15 @@ h1 {
 	height: 100%;
 	/* The html and body elements cannot have any padding or margin. */
       margin: 0;
-	font-size: 14px;
-	font-family: 'Open Sans', sans-serif;
-	color: #1c1d1e;
+	font-size: 16px;
+	font-family: 'titelfont', 'Open Sans', sans-serif;
+	color: white;
 	font-size: 32px;
 	margin-bottom: 3px;
 }
 h2 {
 	color: #1c1d1e;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'titelfont', 'Open Sans', sans-serif;
 	font-weight: normal;
 }
 .entry-header .inner {
@@ -399,12 +400,16 @@ h2 {
 }
 .entry-header {
 	padding-top: 20px;
-	background-color: #fff;
+	background-color: black;
+	background-image: url('../img/12_parallax.jpg');
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 999999
+}
+	
+	
 }
 .socialLinks {
 	position: fixed;
