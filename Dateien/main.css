@@ -130,6 +130,8 @@ main {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 section.homeSlide {
@@ -146,7 +148,7 @@ section.homeSlide>div {
 #slide-2 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
+
 	text-align: center
 }
 #slide-3 .bcg {
@@ -155,7 +157,7 @@ section.homeSlide>div {
 #slide-4 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
+
 	text-align: center
 }
 #slide-5 .bcg {
@@ -164,7 +166,7 @@ section.homeSlide>div {
 #slide-6 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
+
 	text-align: center
 }
 #slide-7 .bcg {
@@ -173,7 +175,6 @@ section.homeSlide>div {
 #slide-8 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-9 .bcg {
@@ -182,7 +183,6 @@ section.homeSlide>div {
 #slide-10 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-11 .bcg {
@@ -191,7 +191,6 @@ section.homeSlide>div {
 #slide-12 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-13 .bcg {
@@ -200,7 +199,6 @@ section.homeSlide>div {
 #slide-14 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-15 .bcg {
@@ -209,7 +207,6 @@ section.homeSlide>div {
 #slide-16 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-17 .bcg {
@@ -218,7 +215,6 @@ section.homeSlide>div {
 #slide-18 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-19 .bcg {
@@ -227,7 +223,6 @@ section.homeSlide>div {
 #slide-20 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-21 .bcg {
@@ -236,7 +231,6 @@ section.homeSlide>div {
 #slide-22 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 #slide-23 .bcg {
@@ -245,7 +239,6 @@ section.homeSlide>div {
 #slide-24 .bcg {
 	background: none;
 	background-color: #010101;
-	height: 310px;
 	text-align: center
 }
 .hsContainer {
@@ -257,7 +250,7 @@ section.homeSlide>div {
 	position: relative;
 }
 .hsContent {
-	max-width: 450px;
+	max-width: 950px;
 	margin: -150px auto 0 auto;
 	display: table-cell;
 	vertical-align: middle;
@@ -272,7 +265,7 @@ section.homeSlide>div {
 	margin-bottom: 12px;
 }
 .hsContent p {
-	width: 400px;
+	width: 900px;
 	margin: 0 auto;
 	color: #b2b2b2;
 }
