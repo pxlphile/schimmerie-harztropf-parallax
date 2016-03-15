@@ -256,7 +256,7 @@ section.homeSlide>div {
 	color: white;
 }
 .hsContent a {
-	color: #b2b2b2;
+	color: white;
 	text-decoration: underline;
 }
 .bgBlack {
@@ -269,8 +269,14 @@ section.homeSlide>div {
 .text-center {
 	text-align:center;
 }
-p.skrollable {
+p.skrollable, p.fan-red, p.fan-yellow {
 	margin-bottom: 20px;
+}
+.hsContent p.fan-red {
+	color: #b35452;
+}
+.hsContent p.fan-yellow {
+	color: #ccab15;
 }
 
 /* ==========================================================================
