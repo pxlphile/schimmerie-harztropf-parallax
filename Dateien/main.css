@@ -133,6 +133,7 @@ main {
 	width: 100%;
 	padding-top: 70px;
 	padding-bottom: 70px;
+	text-align: center;
 }
 
 section.homeSlide {
@@ -149,8 +150,6 @@ section.homeSlide>div {
 #slide-2 .bcg {
 	background: none;
 	background-color: #010101;
-
-	text-align: center
 }
 #slide-3 .bcg {
 	background-image:url('../img/02_parallax.jpg')
@@ -158,8 +157,6 @@ section.homeSlide>div {
 #slide-4 .bcg {
 	background: none;
 	background-color: #010101;
-
-	text-align: center
 }
 #slide-5 .bcg {
 	background-image:url('../img/03_parallax.jpg')
@@ -167,8 +164,6 @@ section.homeSlide>div {
 #slide-6 .bcg {
 	background: none;
 	background-color: #010101;
-
-	text-align: center
 }
 #slide-7 .bcg {
 	background-image:url('../img/04_parallax.jpg')
@@ -176,7 +171,6 @@ section.homeSlide>div {
 #slide-8 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-9 .bcg {
 	background-image:url('../img/05_parallax.jpg')
@@ -184,7 +178,6 @@ section.homeSlide>div {
 #slide-10 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-11 .bcg {
 	background-image:url('../img/06_parallax.jpg')
@@ -192,7 +185,6 @@ section.homeSlide>div {
 #slide-12 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-13 .bcg {
 	background-image:url('../img/07_parallax.jpg')
@@ -200,7 +192,6 @@ section.homeSlide>div {
 #slide-14 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-15 .bcg {
 	background-image:url('../img/08_parallax.jpg')
@@ -208,7 +199,6 @@ section.homeSlide>div {
 #slide-16 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-17 .bcg {
 	background-image:url('../img/09_parallax.jpg')
@@ -216,7 +206,6 @@ section.homeSlide>div {
 #slide-18 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-19 .bcg {
 	background-image:url('../img/10_parallax.jpg')
@@ -224,7 +213,6 @@ section.homeSlide>div {
 #slide-20 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-21 .bcg {
 	background-image:url('../img/11_parallax.jpg')
@@ -232,7 +220,6 @@ section.homeSlide>div {
 #slide-22 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 #slide-23 .bcg {
 	background-image:url('../img/12_parallax.jpg')
@@ -240,7 +227,6 @@ section.homeSlide>div {
 #slide-24 .bcg {
 	background: none;
 	background-color: #010101;
-	text-align: center
 }
 .hsContainer {
 	display: table;
@@ -257,7 +243,6 @@ section.homeSlide>div {
 	vertical-align: middle;
 	color: #ebebeb;
 	padding: 0 8%;
-	text-align: center
 }
 .hsContent h2,  .copy h2 {
 	color: #ffffff;
@@ -278,6 +263,16 @@ section.homeSlide>div {
 	background-color: rgba(0,0,0,0.75);
 	padding: 3px 10px;
 }
+.text-justify {
+	text-align:justify;
+}
+.text-center {
+	text-align:center;
+}
+p.skrollable {
+	margin-bottom: 20px;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -400,17 +395,15 @@ h2 {
 }
 .entry-header {
 	padding-top: 20px;
-	background-color: black;
-	background-image: url('../img/12_parallax.jpg');
+	color: #ccab15;
+	background-color: #343d66;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 999999
 }
-	
-	
-}
+
 .socialLinks {
 	position: fixed;
 	top: 20px;
