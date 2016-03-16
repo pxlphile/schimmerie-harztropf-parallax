@@ -269,7 +269,10 @@ section.homeSlide>div {
 .text-center {
 	text-align:center;
 }
-p.skrollable, p.fan-red, p.fan-yellow {
+.impressum {
+	font-size: 16px;
+}
+p.skrollable, p.fan {
 	margin-bottom: 20px;
 }
 .hsContent p.fan-red {
@@ -277,6 +280,12 @@ p.skrollable, p.fan-red, p.fan-yellow {
 }
 .hsContent p.fan-yellow {
 	color: #ccab15;
+}
+.hsContent p.fan-light-blue {
+	color: #5b6cb3;
+}
+.hsContent p.fan-dark-blue {
+	color: #343d66 ;
 }
 
 /* ==========================================================================
@@ -382,11 +391,11 @@ p.skrollable, p.fan-red, p.fan-yellow {
 h1 {
 	height: 100%;
 	/* The html and body elements cannot have any padding or margin. */
-      margin: 0;
-	font-size: 16px;
+    margin: 0;
+	font-size: 50px;
 	font-family: 'titelfont', 'Open Sans', sans-serif;
+	font-weight: normal;
 	color: white;
-	font-size: 32px;
 	margin-bottom: 3px;
 }
 h2 {
@@ -397,7 +406,7 @@ h2 {
 .entry-header .inner {
 	text-align: left;
 	margin: 0 auto 20px auto;
-	width: 800px;
+	width: 1050px;
 }
 .entry-header {
 	padding-top: 20px;
