@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'titelfont';
+    src: url('../fonts/titelfont-webfont.eot');
+    src: url('../fonts/titelfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titelfont-webfont.woff2') format('woff2'),
+         url('../fonts/titelfont-webfont.woff') format('woff'),
+         url('../fonts/titelfont-webfont.ttf') format('truetype'),
+         url('../fonts/titelfont-webfont.svg#titelfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
