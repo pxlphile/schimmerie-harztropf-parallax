@@ -149,84 +149,84 @@ section.homeSlide>div {
 }
 #slide-2 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #343e66;
 }
 #slide-3 .bcg {
 	background-image:url('../img/02_parallax.jpg')
 }
 #slide-4 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #457056;
 }
 #slide-5 .bcg {
 	background-image:url('../img/03_parallax.jpg')
 }
 #slide-6 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #5b6cb3;
 }
 #slide-7 .bcg {
 	background-image:url('../img/04_parallax.jpg')
 }
 #slide-8 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #734746;
 }
 #slide-9 .bcg {
 	background-image:url('../img/05_parallax.jpg')
 }
 #slide-10 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #b35452;
 }
 #slide-11 .bcg {
 	background-image:url('../img/06_parallax.jpg')
 }
 #slide-12 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #343d66;
 }
 #slide-13 .bcg {
 	background-image:url('../img/07_parallax.jpg')
 }
 #slide-14 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #5b6cb3;
 }
 #slide-15 .bcg {
 	background-image:url('../img/08_parallax.jpg')
 }
 #slide-16 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #99b37e;
 }
 #slide-17 .bcg {
 	background-image:url('../img/09_parallax.jpg')
 }
 #slide-18 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #cc771a;
 }
 #slide-19 .bcg {
 	background-image:url('../img/10_parallax.jpg')
 }
 #slide-20 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #ccab15;
 }
 #slide-21 .bcg {
 	background-image:url('../img/11_parallax.jpg')
 }
 #slide-22 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #5b6cb3;
 }
 #slide-23 .bcg {
 	background-image:url('../img/12_parallax.jpg')
 }
 #slide-24 .bcg {
 	background: none;
-	background-color: #010101;
+	background-color: #343d66;
 }
 .hsContainer {
 	display: table;
@@ -253,6 +253,7 @@ section.homeSlide>div {
 .hsContent p {
 	width: 1050px;
 	margin: 0 auto;
+	margin-bottom: 20px;
 	color: white;
 }
 .hsContent a {
@@ -272,8 +273,8 @@ section.homeSlide>div {
 .impressum {
 	font-size: 16px;
 }
-p.skrollable, p.fan {
-	margin-bottom: 20px;
+p.fan {
+	margin-top: -20px;
 }
 .hsContent p.fan-red {
 	color: #b35452;
