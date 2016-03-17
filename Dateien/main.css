@@ -98,7 +98,7 @@ textarea {
 body, html {
 	height: 100%;
 	min-height: 100%;
-	background-color: #000000;
+	background-color: #242d56;
 }
 body {
 }
@@ -427,6 +427,9 @@ h2 {
    ========================================================================== */
 
 @media screen and (max-width: 54em) {
+	.bcg {
+		background-size: 100% 50%;
+	}
 	section {
 		min-width: 560px;
 		opacity: 0;
