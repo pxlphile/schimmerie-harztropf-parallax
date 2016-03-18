@@ -13,8 +13,13 @@
 	section.homeSlide > div {
 	    background-position: 0 80px;
 	}
-	.hsContent h2,  .copy h2 {
-		padding-top: 70px;
+	.hsContent h2 {
+		padding-top: 10px;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.title-line .hsContent h2 {
+		padding-top: 60px;
 		font-size: 30px;
 		line-height: 40px;
 	}
