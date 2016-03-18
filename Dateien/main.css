@@ -429,24 +429,61 @@ h2 {
 @media screen and (max-width: 54em) {
 	.bcg {
 		background-size: 100% 50%;
+		background-position: 0 80px;
+		background-repeat: no-repeat;
+		padding-top: 40px;
+		padding-bottom: 30px;
 	}
 	section {
-		min-width: 560px;
-		opacity: 0;
+		min-width: 500px;
+	}
+	section.homeSlide > div {
+	    background-position: 0 80px;
 	}
 	.hsContent h2,  .copy h2 {
+		padding-top: 70px;
 		font-size: 30px;
-		line-height: 25px;
+		line-height: 40px;
 	}
 	.hsContent p {
-		width: 560px;
+		width: 500px;
 	}
-	
+	p {
+		font-size: 16px;
+	}
 	h1 {
 		font-size: 30px;
+		text-align: center;
+	}
+	.entry-header {
+		padding-top: 20px;
+		color: #ccab15;
+		background-color: inherit;
+		width: 100%;
+		position: relative;
+		z-index: 999999;
 	}
 	.entry-header .inner {
 		width: 560px;
+	}
+	section.homeSlide {
+	    height: 300px;
+	}
+	.hsContainer {
+		display: block;
+		table-layout: auto;
+		width: auto;
+		height: auto;
+		overflow: visible;
+		position: relative;
+	}
+	.hsContent {
+		max-width: none;
+		margin: inherit;
+		display: block;
+		vertical-align: middle;
+		color: #ebebeb;
+		padding: 0 8%;
 	}
 }
 

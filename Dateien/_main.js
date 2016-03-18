@@ -34,7 +34,10 @@
 	});
 	
 	function adjustWindow(){
-		
+		//don't skrollr on small displays
+		if ($(window).width() < 1000) {
+			return;
+		} 
 		// Init Skrollr
 		var s = skrollr.init({
 		    render: function(data) {
