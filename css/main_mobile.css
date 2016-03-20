@@ -1,17 +1,11 @@
 @charset "utf-8";
 @media screen and (max-width: 54em) {
 	.bcg {
-		background-size: 100% 50%;
-		background-position: 0 80px;
-		background-repeat: no-repeat;
-		padding-top: 40px;
-		padding-bottom: 30px;
+		background-size: contain;	
 	}
 	section {
-		min-width: 500px;
-	}
-	section.homeSlide > div {
-	    background-position: 0 80px;
+		min-width: auto;
+		height: auto;
 	}
 	.hsContent h2 {
 		padding-top: 10px;
@@ -25,7 +19,7 @@
 		visibility:hidden;
 	}
 	.hsContent p {
-		width: 500px;
+		width: auto;
 	}
 	p {
 		font-size: 16px;
@@ -43,27 +37,14 @@
 		z-index: 999999;
 	}
 	.entry-header .inner {
-		width: 560px;
+		width: auto;
 	}
 	section.homeSlide {
-	    height: 300px;
+	    height: auto;
+		margin: 0px;
+		padding: 0px;
 	}
-	.hsContainer {
-		display: block;
-		table-layout: auto;
-		width: auto;
-		height: auto;
-		overflow: visible;
-		position: relative;
-	}
-	.hsContent {
-		max-width: none;
-		margin: inherit;
-		display: block;
-		vertical-align: middle;
-		color: #ebebeb;
-		padding: 0 8%;
-	}
+
 	#slide-1 .bcg {
 		background-image:url('../img/01_parallax_mobile.jpg')
 	}
